@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GDILab1.h">
+    <ClInclude Include="MFCTestGDI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GDILab1Doc.h">
+    <ClInclude Include="MFCTestGDIDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GDILab1View.h">
+    <ClInclude Include="MFCTestGDIView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -45,15 +45,9 @@
     <ClInclude Include="ViewTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OutputWnd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PropertiesWnd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GDILab1.cpp">
+    <ClCompile Include="MFCTestGDI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
@@ -62,10 +56,10 @@
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GDILab1Doc.cpp">
+    <ClCompile Include="MFCTestGDIDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GDILab1View.cpp">
+    <ClCompile Include="MFCTestGDIView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FileView.cpp">
@@ -77,15 +71,9 @@
     <ClCompile Include="ViewTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OutputWnd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PropertiesWnd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="GDILab1.rc">
+    <ResourceCompile Include="MFCTestGDI.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -132,31 +120,13 @@
     <Image Include="res\menuimages_hc.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\output_wnd.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\output_wnd_hc.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\properties_wnd.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\properties_wnd_hc.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\properties.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\properties_hc.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
     <Image Include="res\userimages.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\GDILab1Doc.ico">
+    <Image Include="res\MFCTestGDIDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\GDILab1.ico">
+    <Image Include="res\MFCTestGDI.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
@@ -167,7 +137,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\GDILab1.rc2">
+    <None Include="res\MFCTestGDI.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="Key.emf" />
